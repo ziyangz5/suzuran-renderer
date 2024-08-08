@@ -18,7 +18,7 @@ Requirements:
 
 ```
 LibTorch >= 2.0.0
-CUDA >= 11.7
+CUDA >= 11.7, <= 11.8
 glfw >= 3.3.8
 ```
 
