@@ -23,7 +23,7 @@ glfw >= 3.3.8
 ```
 
 # Current Progress
-The code itself can be compiled and executed. However, because I wrote this renderer for my Ph.D. [research project](https://github.com/ziyangz5/NeuralBakingTransparency), 
+The code itself can be compiled and executed. However, because I wrote this renderer for my Ph.D. [research project](https://github.com/ziyangz5/CrystalNet), 
 all common problems of research code (messy, hacky, and lack of documentation) currently present in this project. I plan to refactor the code by the following plan:
 1. Remove the repeated part of main.cpp (a standard deferred renderer), suzuran_py.cpp (python bind of the renderer), and neural_main.cpp (the real-time neural renderer).
 2. Better CMake configuration.
